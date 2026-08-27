@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Bot, Send, Globe, Smartphone, Monitor } from 'lucide-react';
+import PageHero from '../components/ui/PageHero';
 import ProjectCard from '../components/ProjectCard';
 import { projects } from '../data/projects';
 
@@ -15,26 +16,14 @@ const filters = [
 export default function Projects() {
   const [active, setActive] = useState('all');
   const filtered = active === 'all' ? projects : projects.filter((p) => p.category === active);
-
   return (
     <>
-      <section className="page-hero">
-        <div className="container mx-auto max-w-7xl px-6 text-center">
-          <span className="section-label justify-center">Portfolio</span>
-          <h1 className="section-title">Projects that <span className="grad-text">speak</span></h1>
-          <p className="section-sub mx-auto">85+ products shipped across AI, bots, web, mobile and desktop. Here are the highlights.</p>
-        </div>
-      </section>
-
+      <PageHero label="Portfolio" title='Projects that <span class="grad-text">speak</span>' subtitle="85+ products shipped across AI, bots, web, mobile and desktop. Here are the highlights." />
       <section className="section pt-4">
         <div className="container mx-auto max-w-7xl px-6">
           <div className="flex flex-wrap justify-center gap-3 mb-14">
             {filters.map((f) => (
-              <button
-                key={f.key}
-                onClick={() => setActive(f.key)}
-                className={`filter-btn ${active === f.key ? 'active' : ''}`}
-              >
+              <button key={f.key} onClick={() => setActive(f.key)} className={`filter-btn ${active === f.key ? 'active' : ''}`}>
                 {f.icon ? <f.icon size={16} className="inline mr-2" /> : null}{f.label}
               </button>
             ))}
