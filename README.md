@@ -137,4 +137,17 @@ and the message is silently dropped.
 - Three.js is lazy-started with `IntersectionObserver` and its render loop pauses off-screen;
   mobile and `prefers-reduced-motion` users get a single static frame.
 - Scripts load with `defer`; images should use `loading="lazy"` + WebP/AVIF.
-- Realistic Lighthouse targets for a 3D + animated site: **90+ desktop, 75+ mobile**.# Porfolio-web
+- Realistic Lighthouse targets for a 3D + animated site: **90+ desktop, 75+ mobile**
+
+# Porfolio-web
+
+React + Vite + Tailwind migration — `npm run build` → `dist/` Vercel da deploy qilinadi. Eski HTML fayllar React routerga o'girildi.
+
+## Vercel Deploy
+
+```bash
+npm install
+npm run build   # vite build -> dist/
+```
+
+Vercel sozlamalari: Framework `Vite`, Build Command `npm run build`, Output `dist`, `vercel.json` da SPA rewrite bor.
