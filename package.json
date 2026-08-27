@@ -1,0 +1,30 @@
+{
+  "name": "jasurbek-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium portfolio for Jasurbek Omonqulov — Full Stack Developer",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:css": "tailwindcss -i ./css/input.css -o ./css/style.css --minify",
+    "watch:css": "tailwindcss -i ./css/input.css -o ./css/style.css --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.0",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^3.4.17",
+    "vite": "^8.2.2"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "gsap": "^3.15.0",
+    "lucide-react": "^1.34.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.2",
+    "three": "^0.185.1",
+    "typed.js": "^3.0.0"
+  }
+}

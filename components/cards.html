@@ -1,0 +1,81 @@
+<!--
+  ============================================================
+  components/cards.html
+  Reusable card patterns used across the portfolio:
+   1. stat card
+   2. technology item
+   3. skill row (progress bar)
+   4. progress ring
+   5. project card   <- in production rendered from data/projects.json
+   6. timeline card
+  ============================================================
+-->
+
+<!-- 1. STAT CARD -->
+<div class="stat-card glass" data-reveal>
+  <i data-lucide="briefcase" class="icon"></i>
+  <div class="value grad-text" data-counter="10" data-suffix="+">0</div>
+  <div class="label">Years of Experience</div>
+</div>
+
+<!-- 2. TECHNOLOGY ITEM -->
+<div class="tech-item" data-reveal>
+  <i data-lucide="atom"></i>
+  <span>React</span>
+</div>
+
+<!-- 3. SKILL ROW -->
+<div class="skill-row">
+  <div class="skill-head">
+    <span>JavaScript / TypeScript</span>
+    <span class="pct">95%</span>
+  </div>
+  <div class="skill-track">
+    <div class="skill-fill" data-progress="95"></div>
+  </div>
+</div>
+
+<!-- 4. PROGRESS RING -->
+<div class="ring-wrap" data-ring="90" data-reveal>
+  <svg width="120" height="120" viewBox="0 0 120 120">
+    <circle class="ring-bg" cx="60" cy="60" r="50" stroke-width="8" fill="none"></circle>
+    <circle class="ring-fg" cx="60" cy="60" r="50" stroke-width="8"
+            stroke-dasharray="314.16" stroke-dashoffset="314.16"></circle>
+  </svg>
+  <div class="ring-center grad-text">90%</div>
+</div>
+
+<!-- 5. PROJECT CARD -->
+<article class="project-card" data-category="ai" data-tilt data-reveal>
+  <div class="project-media">
+    <i data-lucide="bot" class="preview"></i>
+    <span class="corner tl"></span>
+    <span class="corner br"></span>
+  </div>
+  <div class="project-body">
+    <div class="project-cat">AI / ML</div>
+    <h3 class="project-title">Neural Assistant Platform</h3>
+    <p class="project-desc">Production-ready AI assistant platform with RAG pipeline, streaming responses and real-time analytics.</p>
+    <div class="project-tags"><span>Python</span><span>LangChain</span><span>React</span><span>FastAPI</span></div>
+    <div class="project-links">
+      <a class="btn btn-primary btn-sm" href="#"><i data-lucide="eye"></i> Live Demo</a>
+      <a class="btn btn-outline btn-sm" href="#"><span data-brand="github"></span> GitHub</a>
+    </div>
+  </div>
+</article>
+
+<!-- 6. TIMELINE CARD -->
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-card">
+    <div class="timeline-date">2021 — Present</div>
+    <div class="timeline-role">Lead Full Stack Developer</div>
+    <div class="timeline-company">Company Name</div>
+    <div class="timeline-desc">
+      <ul>
+        <li>Led 12-developer team shipping micro-frontends at scale.</li>
+        <li>Cut infrastructure cost 40% via Docker &amp; CI/CD.</li>
+      </ul>
+    </div>
+  </div>
+</div>

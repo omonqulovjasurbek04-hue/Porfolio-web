@@ -1,0 +1,9 @@
+/* src/index.css — Tailwind entry for React (Vite) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sizning eski global style laringiz css/input.css da qoladi.
+   Agar React komponentlarda ham o'sha variable lar kerak bo'lsa,
+   bu yerga import qilishingiz mumkin: */
+@import "../css/input.css";

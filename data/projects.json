@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Neural Assistant Platform",
+    "category": "ai",
+    "icon": "bot",
+    "description": "Production AI assistant with RAG pipeline, streaming chat and real-time analytics for 50k+ users.",
+    "tags": ["Python", "LangChain", "React", "FastAPI"],
+    "github": "https://github.com/yourusername/neural-assistant",
+    "demo": "https://demo.neural-assistant.app"
+  },
+  {
+    "title": "Crypto Trading Bot",
+    "category": "bots",
+    "icon": "send",
+    "description": "Automated crypto trading & portfolio bot with real-time alerts, executed 40k+ trades.",
+    "tags": ["Node.js", "MongoDB", "Telegram API", "Docker"],
+    "github": "https://github.com/yourusername/crypto-trading-bot",
+    "demo": "https://t.me/cryptobot"
+  },
+  {
+    "title": "E-Commerce Platform",
+    "category": "web",
+    "icon": "shopping-cart",
+    "description": "Headless commerce platform with 99.9% uptime, processing $12M+ in annual revenue.",
+    "tags": ["Next.js", "PostgreSQL", "Stripe", "Redis"],
+    "github": "https://github.com/yourusername/ecommerce-platform",
+    "demo": "https://demo.shop.app"
+  },
+  {
+    "title": "FinTrack — Personal Finance",
+    "category": "mobile",
+    "icon": "smartphone",
+    "description": "Cross-platform finance tracker with offline-first sync and bank-grade security, 200k+ downloads.",
+    "tags": ["React Native", "Node.js", "PostgreSQL"],
+    "github": "https://github.com/yourusername/fintrack",
+    "demo": "https://apps.apple.com/fintrack"
+  },
+  {
+    "title": "Cloud Console Desktop",
+    "category": "desktop",
+    "icon": "cloud",
+    "description": "Native-feel desktop client for cloud infrastructure management with real-time monitoring.",
+    "tags": ["Electron", "React", "AWS", "WebSocket"],
+    "github": "https://github.com/yourusername/cloud-console",
+    "demo": "https://console.cloud.app"
+  },
+  {
+    "title": "SmartCRM Suite",
+    "category": "web",
+    "icon": "sliders-horizontal",
+    "description": "All-in-one CRM for 300+ companies with automation workflows, reporting and team collaboration.",
+    "tags": ["React", "Node.js", "Express", "MongoDB"],
+    "github": "https://github.com/yourusername/smartcrm",
+    "demo": "https://demo.smartcrm.io"
+  },
+  {
+    "title": "Vision Analytics Engine",
+    "category": "ai",
+    "icon": "brain",
+    "description": "Computer-vision engine for retail — real-time shelf monitoring and demand forecasting.",
+    "tags": ["Python", "TensorFlow", "Docker", "Kafka"],
+    "github": "https://github.com/yourusername/vision-analytics",
+    "demo": "https://demo.vision-analytics.app"
+  },
+  {
+    "title": "Restaurant Booking Bot",
+    "category": "bots",
+    "icon": "utensils",
+    "description": "Full booking ecosystem — reservations, menus, payments and loyalty via Telegram.",
+    "tags": ["Node.js", "PostgreSQL", "Stripe"],
+    "github": "https://github.com/yourusername/restaurant-bot",
+    "demo": "https://t.me/restaurantbot"
+  },
+  {
+    "title": "LogiMove — Delivery",
+    "category": "mobile",
+    "icon": "truck",
+    "description": "Real-time delivery tracking app with geofencing, optimized routes and live driver chat.",
+    "tags": ["React Native", "Socket.io", "Maps API"],
+    "github": "https://github.com/yourusername/logimove",
+    "demo": "https://demo.logimove.app"
+  }
+]
